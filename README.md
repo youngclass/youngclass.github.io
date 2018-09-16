@@ -1,5 +1,7 @@
 ## 欢迎来到杨老师的网上课堂资源
 
+在这里，大家可以获得更多课堂相关的知识要点和笔记。
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/youngclass/youngclass.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
