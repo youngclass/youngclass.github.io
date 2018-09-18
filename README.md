@@ -6,5 +6,5 @@
 
 - C 程序设计
 - 数据结构
-- [离散数学](discrete-math/index)
+- [离散数学](./discrete-math)
 - 机器视觉
