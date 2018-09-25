@@ -1,4 +1,4 @@
-## Introduction
+# Introduction
 
 ### 什么是离散数学？
 
