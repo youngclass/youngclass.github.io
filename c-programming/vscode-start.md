@@ -95,4 +95,3 @@ VSCodeUserSetup 这个是我们刚才安装的酷酷的编辑器。mingw-get-set
 大家可以点击某一个包，然后选择 Mark for Installation 进行安装。如果不了解每一个包是什么用途，大家可以参考我的选择。
 
 然后点击菜单栏 Installation -> Apply Changes，在弹出的窗口中点击 Apply 按钮，就会开始安装这些选中的工具啦。根据网速的不同，安装时间也不一样，进度条会显示安装进度。
-
