@@ -4,7 +4,7 @@
 
 ## 课程列表
 
-- C 程序设计
+- [C 程序设计](./c-programming)
 - 数据结构
 - [离散数学](./discrete-math)
 - 机器视觉
