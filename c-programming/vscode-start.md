@@ -68,15 +68,15 @@ bash: gcc: command not found
 
 那就装一个呗。
 
-## 安装 MingGW
+## 安装 MinGW
 
-MingGW 是在 Windows 环境下的最小 GNU 工具集。包含了基本的 C 语言函数库，gcc 编译器集合。可以点击这个[链接下载最新版本](https://osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/)。
+MinGW 是在 Windows 环境下的最小 GNU 工具集。包含了基本的 C 语言函数库，gcc 编译器集合。可以点击这个[链接下载最新版本](https://osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/)。
 
 所以，本次配置，我们一共需要这两个安装包（根据操作系统不同，VSCode的安装包也会不一样）。
 
 ![配置所需的两款工具](./img/vscode-start-01-prepare-downloads.png)
 
-VSCodeUserSetup 这个是我们刚才安装的酷酷的编辑器。mingw-get-setup 就是我们要安装 MingGW 所需的配置包啦。装上它。
+VSCodeUserSetup 这个是我们刚才安装的酷酷的编辑器。mingw-get-setup 就是我们要安装 MinGW 所需的配置包啦。装上它。
 
 双击打开安装包，点击Install安装会出现下面的界面：
 
@@ -107,7 +107,7 @@ MinGW 的配置就是把其中的相关路径加入到系统的环境变量中�
 1. 打开 控制中心 -> 系统与安全 -> 系统，点击左侧 “高级系统设置”；
 2. 在弹出的标签页中单击 “环境变量”按钮，如图中数字2所标示的箭头；
 3. 在弹出的对话框中选择“系统变量”框中的 Path 一行，如上图中数字3所标示的箭头，然后点击“编辑”按钮。（如果 Path 一行没有显示，可以拉动 “系统变量” 框中的滚动条，就可以看到）
-4. 在新弹出的对话框中，在变量值一栏，参考已有的路径写法，把 MingGW 的路径加入其中，路径之间用 分号 (;) 分隔。我们需要加入的两个路径风别是：
+4. 在新弹出的对话框中，在变量值一栏，参考已有的路径写法，把 MinGW 的路径加入其中，路径之间用 分号 (;) 分隔。我们需要加入的两个路径风别是：
    
    - "C:\MinGW\bin"
    - "C:\MinGW\msys\1.0\bin"
