@@ -4,7 +4,7 @@
 
 下载安装 [Visual Studio Code](https://code.visualstudio.com/) 是很简单，一路默认下一步，就安装好了。从菜单里找到应用，点击打开，就会看到下面这个欢迎界面，酷酷的。
 
-![欢迎界面](./img/VSCode-start-02-open-vscode.png)
+![欢迎界面](./img/vscode-start-02-open-vscode.png)
 
 但是，都是英文，(⊙o⊙)…
 好吧，要好好学习英语。当然，我们也可以配置一下语言，目前，我觉得英文界面也没什么难的。
