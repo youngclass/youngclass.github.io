@@ -4,7 +4,7 @@
 
 下载安装 [Visual Studio Code](https://code.visualstudio.com/) 是很简单，一路默认下一步，就安装好了。从菜单里找到应用，点击打开，就会看到下面这个欢迎界面，酷酷的。
 
-![欢迎界面](./img/VSCode-start-02-open-VSCode.png)
+![欢迎界面](./img/VSCode-start-02-open-vscode.png)
 
 但是，都是英文，(⊙o⊙)…
 好吧，要好好学习英语。当然，我们也可以配置一下语言，目前，我觉得英文界面也没什么难的。
@@ -46,7 +46,7 @@ OK，VSCode 作为一个代码编辑器的工具，已经做得很好了。有�
 
 泪奔一会...
 
-其实，作为被 IDE 宠坏的一代人，我觉得我们该学习一下前辈们，在没有 IDE 的那段光荣岁月。他们都是在 Terminal 下敲指令的英雄。VSCode 给了我们 Terminal，没错，看到菜单栏的 Terminal 了吗？点击 Terminal -> New Terminal 来打开一个终端 （按下 Ctrl-` 也会打开一个 Terminal）。
+其实，作为被 IDE 宠坏的一代人，我觉得我们该学习一下前辈们，在没有 IDE 的那段光荣岁月。他们都是在 Terminal 下敲指令的英雄。VSCode 给了我们 Terminal，没错，看到菜单栏的 Terminal 了吗？点击 Terminal -> New Terminal 来打开一个终端 （按下 Ctrl+` 也会打开一个 Terminal）。
 
 在 Unix 或者 Linux 环境下，有一个编译器叫做 gcc，输入命令：
 
@@ -119,9 +119,9 @@ MinGW 的配置就是把其中的相关路径加入到系统的环境变量中�
 
 ## 在 Terminal 中使用 gcc 编译器
 
-下面，我们就可以在 Terminal 中编译程序了。使用 "Ctrl + `" 快捷键 [^shortkey] （在 Mac OS 下，所有的 Ctrl 都换成 Command 就可以了，所以是 "Command + `"）。
+下面，我们就可以在 Terminal 中编译程序了。使用 "Ctrl + \`" 快捷键[^shortkey] （在 Mac OS 下，所有的 Ctrl 都换成 Command 就可以了，所以是 "Command + \`"）。
 
-[^shortkey]: 注意，这里 "Ctrl + `" 代表同时按下 "Ctrl" 键和 "`" 键，也可以按下 "Ctrl" 键的同时再按下 "`" 键，中间的 + 号是不需要按的。
+[^shortkey]: 注意，这里 "Ctrl + \`" 代表同时按下 "Ctrl" 键和 "\`" 键，也可以按下 "Ctrl" 键的同时再按下 "\`" 键，中间的 + 号是不需要按的。
 
 执行 `gcc test.c`，然后使用 `ls` 命令查看当前目录文件，可以发现，多了一个 `a.exe`：
 
