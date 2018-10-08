@@ -8,3 +8,6 @@
 
 - [Note 00: Introduction](./note00-introduction)
 - [Note 01: 离散数学基础：逻辑与证明](./note01-logic-and-proofs)
+
+## 番外
+- [Windows 系统安装 Python 环境](./python_configure)
