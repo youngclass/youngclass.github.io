@@ -10,9 +10,7 @@
 
 一般，我们现在推荐使用 Python 3 的新语法，因此，下载 Python 3 的最新版本即可。
 
-![anaconda python
-download](https://pan.nit.zju.edu.cn/share/b276f5f5e21d3d571846371bec)
-# ./img/anaconda-python-download.png)
+![anaconda python download](./img/anaconda-python-download.png)
 
 这里要注意选择 64-bit 版本或者 32-bit 版本。这个需要通过查看自己计算机的信息获得操作系统的信息来确定。
 
